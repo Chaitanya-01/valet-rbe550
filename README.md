@@ -1,5 +1,9 @@
 # A* kinematic path planner under non holonomic constraints
-Create an A* kinematic path planner under non holonomic constraints for three vehicle types: 1. Delivery Robot (differential drive) 2. Car (Ackerman steering) 3. Truck (A car with single trailer attached)
+Create an A* kinematic path planner under non holonomic constraints for three vehicle types:
+1. Delivery Robot (differential drive)
+2. Car (Ackerman steering)
+3. Truck (A car with single trailer attached)
+
 The goal of the project is to start the vehicle at the northwest corner of the 2d map and find a path to the parking spot in between two vehicles while avoiding the obstacle at the center. The path should take into account the non holonomic constraints of the vehicle.(Implemented as part of project for RBE550 - Motion Planning course)
 
 ## Steps to run the code
